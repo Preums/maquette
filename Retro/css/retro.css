@@ -1,0 +1,78 @@
+/* déclaration des polices personnalisées */
+@font-face {
+font-family: 'seasideresortnfregular';
+    src: url('../font/SeasideResort/SEASRN.eot');
+    src: url('../font/SeasideResort/SEASRN.eot?#iefix') format('embedded-opentype'),
+         url('../font/SeasideResort/SEASRN.woff2') format('woff2'),
+         url('../font/SeasideResort/SEASRN.woff') format('woff'),
+         url('../font/SeasideResort/SEASRN.ttf') format('truetype'),
+         url('../font/SeasideResort/SEASRN.svg#seasideresortnfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: Bazar;
+  src: url('../font/Bazar/Bazar.eot?#iefix') format('embedded-opentype'),
+	url('../font/Bazar/Bazar.woff') format('woff'),
+	url('../font/Bazar/Bazar.ttf')  format('truetype'),
+	url('../font/Bazar/Bazar.svg#Bazar') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+
+/* déclaration des variables*/
+#slider, header
+{
+background-color: #71b0b0;
+color: white;
+text-align: center;
+}
+
+#about, #blog
+{
+background-color: #e1dccb;
+}
+
+#portfolio
+{
+background-color: #d57f5e;
+}
+
+#contact
+{
+background-color: #4c5057;
+color: white;
+}
+
+#logo
+{
+font-size: 5em;
+text-align: center;
+background: url(../img/Logo.svg) no-repeat center;
+background-size: contain;
+}
+
+em
+{
+text-decoration: underline;
+}
+
+h1, #logo
+{
+font-family: 'seasideresortnfregular', Arial, sans-serif;
+}
+
+h2, h3
+{
+font-family: 'Bazar', Arial, sans-serif;
+}
+
+nav ul
+{
+list-style-type: none;
+}
+
+body
+{
+font-family: Arial, sans-serif;
+}

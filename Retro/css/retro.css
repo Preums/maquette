@@ -20,30 +20,32 @@ font-family: Bazar;
 	  font-style: normal;
 }
 
-/* déclaration des variables*/
+/* déclaration des parties de la page*/
+
+/* Mise en page de l'affichage défilant de photo */
 #slider, header
 {
 background-color: #71b0b0;
 color: white;
 text-align: center;
 }
-
+/* Mise en page du contenu du blog et de la partie about me */
 #about, #blog
 {
 background-color: #e1dccb;
 }
-
+/* Mise en page du contenu du portfolio */
 #portfolio
 {
 background-color: #d57f5e;
 }
-
+/* Mise en page de la partie contact */
 #contact
 {
 background-color: #4c5057;
 color: white;
 }
-
+/* Mise en page du contenu du logo */
 #logo
 {
 font-size: 5em;
@@ -51,7 +53,7 @@ text-align: center;
 background: url(../img/Logo.svg) no-repeat center;
 background-size: contain;
 }
-
+/* Mise en page des différentes balises */
 em
 {
 text-decoration: underline;

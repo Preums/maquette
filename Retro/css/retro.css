@@ -26,18 +26,24 @@ text-decoration: underline;
 
 h1, #logo {
 font-family: 'seasideresortnfregular', Arial, sans-serif;
+font-size: 120px;
 }
 h2 {
 text-shadow: 2px 2px #4a4b4f;
 }
 h2, h3, header a {
 font-family: 'Bazar', Arial, sans-serif;
+padding:10px 0;
 }
 
 h2 {
   text-align: center;
 }
-
+hr {
+  border-color: #e1dccb;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Arial, sans-serif;
 }
@@ -45,6 +51,14 @@ body {
 .subtitle{
   text-align: center;
 }
+
+section {
+  padding-top: 25px;
+}
+article {
+  padding-top: 15px;
+}
+
 /* déclaration des parties de la page*/
 
 /* Mise en page du contenu du logo  et du menu */
@@ -54,25 +68,36 @@ nav ul {
 }
 
 #logo {
-  padding: 15px;
-  font-size: 5em;
+  display: block;
+  margin: auto;
+  text-align: center;
+  line height: 120px;
+  font-size: 80px;
   background: url(../img/Logo.svg) no-repeat center;
   background-size: contain;
-  min-width: 80px;
-  min-height: 80px;
+  width: 120px;
+  height: 120px;
+}
+header a {
+  color: white;
+  line-height: 120px;
+  font-size: 30px;
+}
+header a:hover {
+  color: #434649;
+  text-decoration: none;
 }
 /* Mise en page de l'affichage défilant de photo */
 #slider, header {
   background-color: #71b0b0;
   color: white;
   text-align: center;
-}
-header a {
-  color: white;
+  border: 1px solid #71b0b0;
 }
 /* Mise en page du contenu du blog et de la partie about me */
 #about, #blog {
   background-color: #e1dccb;
+  border: 1px solid #e1dccb;
 }
 #about img {
   width: 90px;
@@ -83,7 +108,6 @@ header a {
   display: block;
   margin: auto;
   line-height: 120px;
-  vertical-align: middle;
   text-align: center;
   height: 120px;
   width: 120px;
@@ -154,10 +178,13 @@ h3, h4 {
   -webkit-border-radius:5px;
   border-radius: 5px;
 }
+/* Mise en page de la partie blog */
+
 /* Mise en page de la partie contact */
 #contact {
   background-color: #4c5057;
   color: white;
+  padding-top: 25px;
 }
 
 input, textarea {

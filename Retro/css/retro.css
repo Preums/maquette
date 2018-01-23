@@ -38,10 +38,6 @@ h2 {
   text-align: center;
 }
 
-nav ul {
-  list-style-type: none;
-}
-
 body {
   font-family: Arial, sans-serif;
 }
@@ -51,7 +47,12 @@ body {
 }
 /* déclaration des parties de la page*/
 
-/* Mise en page du contenu du logo */
+/* Mise en page du contenu du logo  et du menu */
+
+nav ul {
+  list-style-type: none;
+}
+
 #logo {
   padding: 15px;
   font-size: 5em;
@@ -79,7 +80,9 @@ header a {
 }
 
 .icons {
-  display: table-cell;
+  display: block;
+  margin: auto;
+  line-height: 120px;
   vertical-align: middle;
   text-align: center;
   height: 120px;

@@ -1,4 +1,6 @@
-/* déclaration des polices personnalisées */
+/* ------------------------------------------------------------------------------------------
+                    déclaration des polices personnalisées
+------------------------------------------------------------------------------------------ */
 
 @font-face {
   font-family: 'seasideresortnfregular';
@@ -15,7 +17,9 @@
   font-style: normal;
 }
 
-/* définition des balises générales */
+/* ------------------------------------------------------------------------------------------
+                           définition des balises générales
+------------------------------------------------------------------------------------------ */
 
 em {
   text-decoration: underline;
@@ -61,9 +65,13 @@ article {
   padding-top: 15px;
 }
 
-/* déclaration des parties de la page*/
+/* ------------------------------------------------------------------------------------------
+                              déclaration des parties de la page
+------------------------------------------------------------------------------------------ */
 
-/* Mise en page du contenu du logo  et du menu */
+/* ------------------------------------------------------------------------------------------
+                        Mise en page du contenu du logo  et du menu
+------------------------------------------------------------------------------------------ */
 
 nav ul {
   list-style-type: none;
@@ -92,7 +100,10 @@ header a:hover {
   text-decoration: none;
 }
 
-/* Mise en page de l'affichage défilant de photo */
+
+/* ------------------------------------------------------------------------------------------
+                          Mise en page de l'affichage défilant de photo
+------------------------------------------------------------------------------------------ */
 
 #slider, header {
   background-color: #71b0b0;
@@ -101,7 +112,9 @@ header a:hover {
   border: 1px solid #71b0b0;
 }
 
-/* Mise en page du contenu du blog et de la partie about me */
+/* ------------------------------------------------------------------------------------------
+                     Mise en page du contenu du blog et de la partie about me
+------------------------------------------------------------------------------------------ */
 
 #about, #blog {
   background-color: #e1dccb;
@@ -128,7 +141,9 @@ h3, h4 {
   text-align: center;
 }
 
-/* Mise en page du contenu du portfolio */
+/* ------------------------------------------------------------------------------------------
+                             Mise en page du contenu du portfolio
+------------------------------------------------------------------------------------------ */
 
 #portfolio {
   background-color: #d57f5e;
@@ -211,9 +226,13 @@ h3, h4 {
   border-radius: 5px;
 }
 
-/* Mise en page de la partie blog */
+/* ------------------------------------------------------------------------------------------
+                          Mise en page de la partie blog
+------------------------------------------------------------------------------------------ */
 
-/* Mise en page de la partie contact */
+/* ------------------------------------------------------------------------------------------
+                        Mise en page de la partie contact
+------------------------------------------------------------------------------------------ */
 
 #contact {
   background-color: #4c5057;

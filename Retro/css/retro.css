@@ -25,11 +25,6 @@ em {
   text-decoration: underline;
 }
 
-h1, #logo {
-  font-family: 'seasideresortnfregular', Arial, sans-serif;
-  font-size: 120px;
-}
-
 h2 {
   text-shadow: 2px 2px #4a4b4f;
 }
@@ -41,6 +36,7 @@ h2, h3, header a {
 
 h2 {
   text-align: center;
+  font-size: 4em;
 }
 
 hr {
@@ -73,24 +69,32 @@ article {
                         Mise en page du contenu du logo  et du menu
 ------------------------------------------------------------------------------------------ */
 
-nav ul {
-  list-style-type: none;
+h1, #logo {
+  font-family: 'seasideresortnfregular', Arial, sans-serif;
+  font-size: 120px;
+  color: #e1dccb;
 }
 
 #logo {
   display: block;
   margin: auto;
-  text-align: center;
   line height: 120px;
   font-size: 80px;
-  background: url(../img/Logo.svg) no-repeat center;
+  background: url("../img/Logo.svg") no-repeat center;
+  background-color: #71b0b0;
   background-size: contain;
   width: 120px;
   height: 120px;
 }
 
+nav ul {
+  list-style-type: none;
+}
+nav li:nth-child(3) {
+  text-align: center;
+}
 header a {
-  color: white;
+  color: #e1dccb;
   line-height: 120px;
   font-size: 30px;
 }
@@ -105,11 +109,40 @@ header a:hover {
                           Mise en page de l'affichage défilant de photo
 ------------------------------------------------------------------------------------------ */
 
+#ribbon {
+  font-family: 'Bazar', Arial, sans-serif;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  background: url("../img/ribbon.svg") no-repeat center;
+  background-color: #71b0b0;
+  color: #434649;
+  margin-bottom: 50px;
+}
+
 #slider, header {
   background-color: #71b0b0;
   color: white;
   text-align: center;
   border: 1px solid #71b0b0;
+}
+
+#slider {
+  font-family: 'Bazar', Arial, sans-serif;
+  font-size: 20px;
+  color: ##e1dccb;
+}
+
+#slider img {
+  padding-bottom: 25px;
+}
+
+#slider p:nth-child(5) {
+  font-size: 30px;
+}
+
+#slider p:nth-child(6) {
+  font-size: 20px;
 }
 
 /* ------------------------------------------------------------------------------------------

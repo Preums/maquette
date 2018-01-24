@@ -1,60 +1,62 @@
 /* déclaration des polices personnalisées */
+
 @font-face {
-font-family: 'seasideresortnfregular';
-    src: url('../font/SeasideResort/SEASRN.eot');
-    src: url('../font/SeasideResort/SEASRN.eot?#iefix') format('embedded-opentype'),
-         url('../font/SeasideResort/SEASRN.woff2') format('woff2'),
-         url('../font/SeasideResort/SEASRN.woff') format('woff'),
-         url('../font/SeasideResort/SEASRN.ttf') format('truetype'),
-         url('../font/SeasideResort/SEASRN.svg#seasideresortnfregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'seasideresortnfregular';
+  src: url('../font/SeasideResort/SEASRN.eot');
+  src: url('../font/SeasideResort/SEASRN.eot?#iefix') format('embedded-opentype'), url('../font/SeasideResort/SEASRN.woff2') format('woff2'), url('../font/SeasideResort/SEASRN.woff') format('woff'), url('../font/SeasideResort/SEASRN.ttf') format('truetype'), url('../font/SeasideResort/SEASRN.svg#seasideresortnfregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-font-family: Bazar;
-  src: url('../font/Bazar/Bazar.eot?#iefix') format('embedded-opentype'),
-	url('../font/Bazar/Bazar.woff') format('woff'),
-	url('../font/Bazar/Bazar.ttf')  format('truetype'),
-	url('../font/Bazar/Bazar.svg#Bazar') format('svg');
-	  font-weight: normal;
-	  font-style: normal;
+  font-family: Bazar;
+  src: url('../font/Bazar/Bazar.eot?#iefix') format('embedded-opentype'), url('../font/Bazar/Bazar.woff') format('woff'), url('../font/Bazar/Bazar.ttf') format('truetype'), url('../font/Bazar/Bazar.svg#Bazar') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 /* définition des balises générales */
+
 em {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1, #logo {
-font-family: 'seasideresortnfregular', Arial, sans-serif;
-font-size: 120px;
+  font-family: 'seasideresortnfregular', Arial, sans-serif;
+  font-size: 120px;
 }
+
 h2 {
-text-shadow: 2px 2px #4a4b4f;
+  text-shadow: 2px 2px #4a4b4f;
 }
+
 h2, h3, header a {
-font-family: 'Bazar', Arial, sans-serif;
-padding:10px 0;
+  font-family: 'Bazar', Arial, sans-serif;
+  padding: 10px 0;
 }
 
 h2 {
   text-align: center;
 }
+
 hr {
   border-color: #e1dccb;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Arial, sans-serif;
 }
 
-.subtitle{
+.subtitle {
   text-align: center;
 }
 
 section {
   padding-top: 25px;
 }
+
 article {
   padding-top: 15px;
 }
@@ -78,27 +80,34 @@ nav ul {
   width: 120px;
   height: 120px;
 }
+
 header a {
   color: white;
   line-height: 120px;
   font-size: 30px;
 }
+
 header a:hover {
   color: #434649;
   text-decoration: none;
 }
+
 /* Mise en page de l'affichage défilant de photo */
+
 #slider, header {
   background-color: #71b0b0;
   color: white;
   text-align: center;
   border: 1px solid #71b0b0;
 }
+
 /* Mise en page du contenu du blog et de la partie about me */
+
 #about, #blog {
   background-color: #e1dccb;
   border: 1px solid #e1dccb;
 }
+
 #about img {
   width: 90px;
   height: 90px;
@@ -114,58 +123,81 @@ header a:hover {
   background-color: #d45244;
   border-radius: 60px;
 }
+
 h3, h4 {
   text-align: center;
 }
+
 /* Mise en page du contenu du portfolio */
+
 #portfolio {
   background-color: #d57f5e;
 }
+
 #portfolio ul {
-	margin:0;
-	padding:0;
-	list-style:none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 #portfolio li {
   float: left;
   margin-left: 25px;
   padding: 0 10px;
-	height:20px;
-	line-height:20px;
-	position:relative;
-	font-size:12px;
-  border-bottom-right-radius:4px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  font-size: 12px;
+  border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
-  background:white;
+  background-color: white;
 }
+
 #portfolio li:before {
-  content:"";
-	float:left;
-	position:absolute;
-	top:0;
-	left:-10px;
-	width:0;
-	height:0;
-	border-color:transparent white transparent transparent;
-	border-style:solid;
-	border-width:10px 10px 10px 0
+  content: "";
+  float: left;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 0;
+  height: 0;
+  border-color: transparent white transparent transparent;
+  border-style: solid;
+  border-width: 10px 10px 10px 0
 }
+
 #portfolio li:after {
-  content:"";
-  	position:absolute;
-  	top:9px;
-  	left:0;
-  	float:left;
-  	width:4px;
-  	height:4px;
-  	-moz-border-radius:2px;
-  	-webkit-border-radius:2px;
-  	border-radius:2px;
-  	background:grey;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  float: left;
+  width: 4px;
+  height: 4px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: grey;
 }
+#portfolio li:first-child {
+  border: none;
+  background-color: #d57f5e;
+  font-size: 18px;
+}
+#portfolio li:first-child:before {
+  border: none;
+}
+ #portfolio li:first-child:after {
+   border: none;
+   background-color: #d57f5e;
+ }
+
 .row {
   clear: both;
+}
+.pictures {
+  padding: 20px 5px;
+  text-align: center;
 }
 #portfolio img {
   width: 400px;
@@ -174,13 +206,15 @@ h3, h4 {
   min-height: 300px;
   background-color: white;
   border: 1px solid white;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
 }
+
 /* Mise en page de la partie blog */
 
 /* Mise en page de la partie contact */
+
 #contact {
   background-color: #4c5057;
   color: white;
@@ -188,8 +222,8 @@ h3, h4 {
 }
 
 input, textarea {
-    width: 70%;
-    margin: 5px 15%;
+  width: 70%;
+  margin: 5px 15%;
 }
 
 textarea {

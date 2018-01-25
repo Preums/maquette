@@ -71,6 +71,7 @@ body {
 
 .smallSeparator {
   height: 5px;
+  margin-bottom: 15px;
   background: url("../img/smallSeparator.svg") no-repeat center;
 }
 
@@ -184,6 +185,7 @@ header a:hover {
 .icons {
   display: block;
   margin: auto;
+  margin-bottom: 25px;
   line-height: 120px;
   text-align: center;
   height: 120px;
@@ -284,12 +286,54 @@ h3, h4 {
 /* ------------------------------------------------------------------------------------------
                           Mise en page de la partie blog
 ------------------------------------------------------------------------------------------ */
+.blogPicture {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 150px;
+  border: 2px solid white;
+  background-color: #e1dccb;
+  margin-right: 20px;
+}
+
+#blog h5, .dateOfPost, .response {
+  font-weight: bold;
+}
+
+#blog h5 {
+  font-size: 1.7em;
+}
+
+#blog a {
+  color: black;
+}
+
+#blog a:hover {
+  color: #4a4b4f;
+  text-decoration: none;
+}
+
+.response {
+  float: right;
+  margin-bottom: 0;
+}
+
+#blog p ~ p {
+  margin-left: 220px;
+}
+
+#blog .smallSpacer {
+  height: 5px;
+background: url("../img/smallSeparator.svg") no-repeat left;
+  margin-left: 220px;
+}
 
 /* ------------------------------------------------------------------------------------------
                         Mise en page de la partie contact
 ------------------------------------------------------------------------------------------ */
 
 #contact {
+  clear:both;
   background-color: #4c5057;
   color: #e1dccb;
   padding-top: 25px;
@@ -310,6 +354,12 @@ input[type=submit] {
 
 #contact p {
   text-align: center;
+  padding-bottom: 25px;
+}
+
+#contact h4 {
+  padding-top: 25px;
+  font-family: 'Bazar', Arial, sans-serif;
 }
 
 .socialIcon {

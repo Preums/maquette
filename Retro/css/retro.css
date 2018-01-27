@@ -94,28 +94,32 @@ article {
 
 h1, #logo {
   font-family: 'seasideresortnfregular', Arial, sans-serif;
-  font-size: 120px;
+  font-size: 200px;
   color: #e1dccb;
 }
 
 #logo {
-  display: block;
+  display: inline-block;
   margin: auto;
-  line height: 120px;
-  font-size: 80px;
   background: url("../img/Logo.svg") no-repeat center;
   background-color: #71b0b0;
   background-size: contain;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 150px;
+  text-indent: 20px;
+  border: 2px solid blue;
 }
 
 nav ul {
   list-style-type: none;
 }
+
 nav li:nth-child(3) {
   text-align: center;
 }
+
 header a {
   color: #e1dccb;
   line-height: 120px;
@@ -127,7 +131,13 @@ header a:hover {
   text-decoration: none;
 }
 
+#slider {
+  padding-top: 0px;
+}
 
+hr:first-of-type {
+  padding:0;
+}
 /* ------------------------------------------------------------------------------------------
                           Mise en page de l'affichage défilant de photo
 ------------------------------------------------------------------------------------------ */
@@ -153,7 +163,7 @@ header a:hover {
 #slider {
   font-family: 'Bazar', Arial, sans-serif;
   font-size: 20px;
-  color: ##e1dccb;
+  color: #e1dccb;
 }
 
 #slider img {
@@ -224,7 +234,6 @@ h3, h4 {
   border-top-right-radius: 4px;
   background-color: white;
 }
-
 #portfolio li:before {
   content: "";
   float: left;
@@ -237,7 +246,6 @@ h3, h4 {
   border-style: solid;
   border-width: 10px 10px 10px 0
 }
-
 #portfolio li:after {
   content: "";
   position: absolute;
@@ -259,7 +267,7 @@ h3, h4 {
 #portfolio li:first-child:before {
   border: none;
 }
- #portfolio li:first-child:after {
+#portfolio li:first-child:after {
    border: none;
    background-color: #d57f5e;
  }
@@ -272,10 +280,11 @@ h3, h4 {
   text-align: center;
 }
 #portfolio img {
-  width: 400px;
-  min-width: 400px;
-  height: 300px;
-  min-height: 300px;
+  width: 250px;
+  min-width: 250px;
+  height: 250px;
+  min-height: 250px;
+  margin: 15px;
   background-color: white;
   border: 1px solid white;
   -moz-border-radius: 5px;

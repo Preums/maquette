@@ -39,11 +39,11 @@ h6 {
 }
 
 hr {
-  border-color: #e1dccb;
+  border-color: #ece8db;
   width: 100%;
-  margin-left: 0;
+  margin: 0;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 body {
@@ -109,7 +109,6 @@ h1, #logo {
   line-height: 200px;
   font-size: 150px;
   text-indent: 20px;
-  border: 2px solid blue;
 }
 
 nav ul {
@@ -136,7 +135,7 @@ header a:hover {
 }
 
 hr:first-of-type {
-  padding:0;
+  padding-bottom: 10px;
 }
 /* ------------------------------------------------------------------------------------------
                           Mise en page de l'affichage défilant de photo
